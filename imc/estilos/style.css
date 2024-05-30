@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(/imc/img/f7c45c17-a1dc-4710-957f-25ba109cddf8.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#containerForm {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.966);
+    border-radius: 10px;
+    background-position: center top;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px;
+}
+
+#containerH2 {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.containerList {
+    display: flex;
+    width: 100%;
+    font-size: 17px;
+    padding: 5px;
+}
+
+.containerList span {
+    flex: 1;
+}
+
+.containerList .imcIndice {
+    transform: translateX(34px);
+}
+
+.containerList .indice {
+    transform: translateX(30px);
+}
+
+input {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 40px;
+    outline: none;
+    border-radius: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+label {
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 75%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+
+h3 {
+    text-align: center;
+    margin: 20px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #646464;
+}
+
+#resultado {
+    text-align: center;
+    margin: 20px;
+    font-size: 17px;
+}
+
+.selected {
+    color: blue;
+}
