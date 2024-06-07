@@ -75,7 +75,7 @@ input::placeholder {
 }
 
 label {
-    display: flex;
+    display: block;
     text-align: center;
     margin: auto;
     width: 75%;
