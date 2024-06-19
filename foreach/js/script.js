@@ -8,5 +8,5 @@ const lista = [
 ]
 
 lista.forEach((itens)=> {
-    console.log(itens)
+    console.log(itens.nome)
 })
